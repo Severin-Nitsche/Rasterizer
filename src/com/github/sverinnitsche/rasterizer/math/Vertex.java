@@ -33,4 +33,25 @@ public class Vertex {
     if(matrix == bufferedMatrix) return z;
     else return z = matrix.multiply(this).getZ();
   }
+  
+  public double dot(Vertex v) {
+    return getX()*v.getX()+getY()*v.getY()+getZ()*v.getZ();
+  }
+  
+  public Vertex cross(Vertex v) {
+    return new Vertex(
+        getY()*v.getZ() - getZ()*v.getY(),
+        getZ()*v.getX() - getX()*v.getZ(),
+        getX()*v.getY() - getY()*v.getX()
+    );
+  }
+  
+  public Vertex norm() {
+    double m = Math.sqrt(getX()*getX()+getY()*getY()+getZ()*getZ());
+    pos[0] /= m;
+    pos[1] /= m;
+    pos[2] /= m;
+    return this;
+  }
+  
 }

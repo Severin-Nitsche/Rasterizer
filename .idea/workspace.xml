@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75277307-46a1-49bf-b5ad-44f8eb03725f" name="Default Changelist" comment="" />
+    <list default="true" id="75277307-46a1-49bf-b5ad-44f8eb03725f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/math/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/math/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Mesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Raster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Raster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Rasterizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Rasterizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Tri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Tri.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +26,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZXbeMzqIgvo7q4JS6uIwqsliQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -91,38 +108,38 @@
       <screen x="0" y="0" width="1280" height="796" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.796@0.0.1280.796" timestamp="1585041437792" />
-    <state width="1238" height="193" key="GridCell.Tab.0.bottom" timestamp="1585043688332">
+    <state width="1238" height="193" key="GridCell.Tab.0.bottom" timestamp="1585048203536">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585043688332" />
-    <state width="1238" height="193" key="GridCell.Tab.0.center" timestamp="1585043688330">
+    <state width="1238" height="193" key="GridCell.Tab.0.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585048203536" />
+    <state width="1238" height="193" key="GridCell.Tab.0.center" timestamp="1585048203534">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.center/0.0.1280.796@0.0.1280.796" timestamp="1585043688330" />
-    <state width="1238" height="193" key="GridCell.Tab.0.left" timestamp="1585043688329">
+    <state width="1238" height="193" key="GridCell.Tab.0.center/0.0.1280.796@0.0.1280.796" timestamp="1585048203534" />
+    <state width="1238" height="193" key="GridCell.Tab.0.left" timestamp="1585048203533">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.left/0.0.1280.796@0.0.1280.796" timestamp="1585043688329" />
-    <state width="1238" height="193" key="GridCell.Tab.0.right" timestamp="1585043688331">
+    <state width="1238" height="193" key="GridCell.Tab.0.left/0.0.1280.796@0.0.1280.796" timestamp="1585048203533" />
+    <state width="1238" height="193" key="GridCell.Tab.0.right" timestamp="1585048203535">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.right/0.0.1280.796@0.0.1280.796" timestamp="1585043688331" />
-    <state width="1238" height="244" key="GridCell.Tab.1.bottom" timestamp="1585043217500">
+    <state width="1238" height="193" key="GridCell.Tab.0.right/0.0.1280.796@0.0.1280.796" timestamp="1585048203535" />
+    <state width="1238" height="244" key="GridCell.Tab.1.bottom" timestamp="1585047717876">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="244" key="GridCell.Tab.1.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585043217500" />
-    <state width="1238" height="244" key="GridCell.Tab.1.center" timestamp="1585043217498">
+    <state width="1238" height="244" key="GridCell.Tab.1.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585047717876" />
+    <state width="1238" height="244" key="GridCell.Tab.1.center" timestamp="1585047717874">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="244" key="GridCell.Tab.1.center/0.0.1280.796@0.0.1280.796" timestamp="1585043217498" />
-    <state width="1238" height="244" key="GridCell.Tab.1.left" timestamp="1585043217497">
+    <state width="1238" height="244" key="GridCell.Tab.1.center/0.0.1280.796@0.0.1280.796" timestamp="1585047717874" />
+    <state width="1238" height="244" key="GridCell.Tab.1.left" timestamp="1585047717874">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="244" key="GridCell.Tab.1.left/0.0.1280.796@0.0.1280.796" timestamp="1585043217497" />
-    <state width="1238" height="244" key="GridCell.Tab.1.right" timestamp="1585043217499">
+    <state width="1238" height="244" key="GridCell.Tab.1.left/0.0.1280.796@0.0.1280.796" timestamp="1585047717874" />
+    <state width="1238" height="244" key="GridCell.Tab.1.right" timestamp="1585047717875">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="244" key="GridCell.Tab.1.right/0.0.1280.796@0.0.1280.796" timestamp="1585043217499" />
+    <state width="1238" height="244" key="GridCell.Tab.1.right/0.0.1280.796@0.0.1280.796" timestamp="1585047717875" />
     <state x="304" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1585040559582">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
@@ -131,16 +148,5 @@
       <screen x="0" y="0" width="1280" height="796" />
     </state>
     <state x="305" y="120" width="670" height="676" key="search.everywhere.popup/0.0.1280.796@0.0.1280.796" timestamp="1585041403744" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/Test.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

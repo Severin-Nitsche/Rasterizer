@@ -12,7 +12,7 @@ public class Test {
   public static void main(String[] args) {
     Vertex[] vertices = {
         new Vertex(0,0,3),
-        new Vertex(10,0,3),
+        new Vertex(10,0,4),
         new Vertex(0,10,3),
         new Vertex(10,10,3)
     };
@@ -24,7 +24,7 @@ public class Test {
     Vertex z = new Vertex(0,0,1);
     Matrix cam = new Matrix(x,y,z,origin);
     Rasterizer renderer = new Rasterizer(mesh,cam);
-    renderer.render().show();
+    renderer.render(false, new Vertex(0,.7,.7)).show();
   }
   
 }
