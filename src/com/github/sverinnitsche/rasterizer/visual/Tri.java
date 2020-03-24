@@ -20,11 +20,12 @@ public class Tri {
     return z1>z2?z1>z3?z1:z3:z2;
   }
   
-  public void project(Matrix cam, Raster r) {
+  public void project(Matrix cam, Raster r, boolean outline) {
     Vertex a = cam.multiply(vertecies[0]);
     Vertex b = cam.multiply(vertecies[1]);
     Vertex c = cam.multiply(vertecies[2]);
   
-    r.tri(a,b,c);
+    if(outline) r.tri(a,b,c);
+    else r.fillTri(a,b,c);
   }
 }

@@ -24,7 +24,7 @@ public class Test {
     Vertex z = new Vertex(0,0,1);
     Matrix cam = new Matrix(x,y,z,origin);
     Rasterizer renderer = new Rasterizer(mesh,cam);
-    renderer.render().show();
+    renderer.render(true).show();
   }
   
 }

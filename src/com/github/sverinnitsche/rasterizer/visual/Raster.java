@@ -15,9 +15,16 @@ public class Raster {
     img.getGraphics().drawLine((int)c.getX(),(int)c.getY(),(int)b.getX(),(int)b.getY());
   }
   
+  public void fillTri(Vertex a, Vertex b, Vertex c) {
+    int[] x = {(int)a.getX(), (int)b.getX(), (int)c.getX()};
+    int[] y = {(int)a.getY(), (int)b.getY(), (int)c.getY()};
+    img.getGraphics().fillPolygon(x,y,3);
+  }
+  
   public void show() {
     JFrame frame = new JFrame();
     frame.add(new JLabel(new ImageIcon(img)));
+    frame.pack();
     frame.setVisible(true);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }

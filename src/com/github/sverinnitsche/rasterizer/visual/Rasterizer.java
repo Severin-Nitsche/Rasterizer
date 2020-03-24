@@ -11,10 +11,10 @@ public class Rasterizer {
     this.cam = cam;
   }
   
-  public Raster render() {
+  public Raster render(boolean outline) {
     Raster r = new Raster();
     mesh.index(cam);
-    mesh.render(cam, r);
+    mesh.render(cam, r, outline);
     return r;
   }
   
