@@ -32,9 +32,9 @@ public class Mesh {
     Arrays.sort(tris, Comparator.comparingDouble(o -> o.getZ(cam)));
   }
   
-  public void render(Matrix cam, Raster r, boolean outline) {
+  public void render(Matrix cam, Raster r, boolean outline, Vertex sun) {
     for(Tri tri : tris) {
-      tri.project(cam, r, outline);
+      tri.project(cam, r, outline, sun);
     }
   }
   
