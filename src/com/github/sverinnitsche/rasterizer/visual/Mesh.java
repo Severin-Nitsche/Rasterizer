@@ -29,13 +29,22 @@ public class Mesh {
   }
   
   public void index(Matrix cam) {
-    Arrays.sort(tris, Comparator.comparingDouble(o -> o.getZ(cam)));
+    Arrays.sort(tris, Comparator.comparingDouble(o -> o.getZIndex(cam)*-1));
   }
   
   public void render(Matrix cam, Raster r, boolean outline, Vertex sun) {
     for(Tri tri : tris) {
       tri.project(cam, r, outline, sun);
     }
+  }
+  
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    for (Tri tri : tris) {
+      builder.append(tri.toString()).append('\n');
+    }
+    return builder.toString();
   }
   
 }

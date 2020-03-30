@@ -17,7 +17,25 @@ public class Tri {
     double z1 = vertices[0].getZIndex(matrix);
     double z2 = vertices[1].getZIndex(matrix);
     double z3 = vertices[2].getZIndex(matrix);
-    return z1>z2?z1>z3?z1:z3:z2;
+    return z1+z2+z3;
+  }
+  
+  public double getY(Matrix matrix) {
+    double y1 = vertices[0].getYIndex(matrix);
+    double y2 = vertices[1].getYIndex(matrix);
+    double y3 = vertices[2].getYIndex(matrix);
+    return y1+y2+y3;
+  }
+  
+  public double getX(Matrix matrix) {
+    double x1 = vertices[0].getXIndex(matrix);
+    double x2 = vertices[1].getXIndex(matrix);
+    double x3 = vertices[2].getXIndex(matrix);
+    return x1+x2+x3;
+  }
+  
+  public double getZIndex(Matrix matrix) {
+    return getZ(matrix)+getY(matrix)-getX(matrix);
   }
   
   public void project(Matrix cam, Raster r, boolean outline, Vertex sun) {
@@ -42,6 +60,15 @@ public class Tri {
             vertices[0].getZ()-vertices[2].getZ()
         )
     ).norm();
+  }
+  
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("\t").append(vertices[0].toString()).append("\n");
+    builder.append("\t/\t\\\n");
+    builder.append(vertices[1].toString()).append("\t").append(vertices[2].toString());
+    return builder.toString();
   }
   
 }
