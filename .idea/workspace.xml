@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75277307-46a1-49bf-b5ad-44f8eb03725f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/models/Cube.mdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/models/Cube.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/res/models/Cube.mdl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/math/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/math/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Mesh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Raster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Raster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Tri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/visual/Tri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/sverinnitsche/rasterizer/io/ModelWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,55 +134,55 @@
       <screen x="0" y="22" width="1280" height="774" />
     </state>
     <state x="453" y="119" key="#com.intellij.ide.util.MemberChooser/0.22.1280.774@0.22.1280.774" timestamp="1585516252814" />
-    <state width="1238" height="191" key="GridCell.Tab.0.bottom" timestamp="1585562395713">
+    <state width="1238" height="191" key="GridCell.Tab.0.bottom" timestamp="1585681299874">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585562395713" />
+    <state width="1238" height="191" key="GridCell.Tab.0.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585681299874" />
     <state width="1238" height="191" key="GridCell.Tab.0.bottom/0.22.1280.774@0.22.1280.774" timestamp="1585561286937" />
-    <state width="1238" height="191" key="GridCell.Tab.0.center" timestamp="1585562395712">
+    <state width="1238" height="191" key="GridCell.Tab.0.center" timestamp="1585681299873">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.center/0.0.1280.796@0.0.1280.796" timestamp="1585562395712" />
+    <state width="1238" height="191" key="GridCell.Tab.0.center/0.0.1280.796@0.0.1280.796" timestamp="1585681299873" />
     <state width="1238" height="191" key="GridCell.Tab.0.center/0.22.1280.774@0.22.1280.774" timestamp="1585561286936" />
-    <state width="1238" height="191" key="GridCell.Tab.0.left" timestamp="1585562395712">
+    <state width="1238" height="191" key="GridCell.Tab.0.left" timestamp="1585681299872">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.left/0.0.1280.796@0.0.1280.796" timestamp="1585562395712" />
+    <state width="1238" height="191" key="GridCell.Tab.0.left/0.0.1280.796@0.0.1280.796" timestamp="1585681299872" />
     <state width="1238" height="191" key="GridCell.Tab.0.left/0.22.1280.774@0.22.1280.774" timestamp="1585561286935" />
-    <state width="1238" height="191" key="GridCell.Tab.0.right" timestamp="1585562395713">
+    <state width="1238" height="191" key="GridCell.Tab.0.right" timestamp="1585681299873">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.right/0.0.1280.796@0.0.1280.796" timestamp="1585562395713" />
+    <state width="1238" height="191" key="GridCell.Tab.0.right/0.0.1280.796@0.0.1280.796" timestamp="1585681299873" />
     <state width="1238" height="191" key="GridCell.Tab.0.right/0.22.1280.774@0.22.1280.774" timestamp="1585561286937" />
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1585562395704">
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1585681256930">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585562395704" />
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.796@0.0.1280.796" timestamp="1585681256930" />
     <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.22.1280.774@0.22.1280.774" timestamp="1585557292061" />
-    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1585562395703">
+    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1585681256928">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.796@0.0.1280.796" timestamp="1585562395703" />
+    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.796@0.0.1280.796" timestamp="1585681256928" />
     <state width="1238" height="243" key="GridCell.Tab.1.center/0.22.1280.774@0.22.1280.774" timestamp="1585557292058" />
-    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1585562395702">
+    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1585681256928">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.796@0.0.1280.796" timestamp="1585562395702" />
+    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.796@0.0.1280.796" timestamp="1585681256928" />
     <state width="1238" height="243" key="GridCell.Tab.1.left/0.22.1280.774@0.22.1280.774" timestamp="1585557292057" />
-    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1585562395703">
+    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1585681256929">
       <screen x="0" y="0" width="1280" height="796" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.796@0.0.1280.796" timestamp="1585562395703" />
+    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.796@0.0.1280.796" timestamp="1585681256929" />
     <state width="1238" height="243" key="GridCell.Tab.1.right/0.22.1280.774@0.22.1280.774" timestamp="1585557292060" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1585063074402">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.22.1280.774@0.22.1280.774" timestamp="1585063074402" />
-    <state x="304" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1585556414430">
+    <state x="304" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1585677176124">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
-    <state x="304" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.796@0.0.1280.796" timestamp="1585164932060" />
-    <state x="304" y="248" key="com.intellij.ide.util.TipDialog/0.22.1280.774@0.22.1280.774" timestamp="1585556414430" />
+    <state x="304" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.796@0.0.1280.796" timestamp="1585644638102" />
+    <state x="304" y="248" key="com.intellij.ide.util.TipDialog/0.22.1280.774@0.22.1280.774" timestamp="1585677176124" />
     <state x="305" y="120" width="670" height="676" key="search.everywhere.popup" timestamp="1585041403744">
       <screen x="0" y="0" width="1280" height="796" />
     </state>

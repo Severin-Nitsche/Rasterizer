@@ -7,7 +7,6 @@ import com.github.sverinnitsche.rasterizer.visual.Mesh;
 import com.github.sverinnitsche.rasterizer.visual.Rasterizer;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Test {
@@ -20,7 +19,7 @@ public class Test {
     Vertex z = new Vertex(0,0,100);
     Matrix cam = new Matrix(x,y,z,origin);
     Rasterizer renderer = new Rasterizer(mesh,cam);
-    renderer.render(false, new Vertex(-.5,-.7,.6)).show();
+    renderer.render(false, new Vertex(-.5,-.8,.4)).show();
   }
   
 }

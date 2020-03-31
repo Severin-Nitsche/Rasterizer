@@ -43,7 +43,7 @@ public class ModelReader {
     int result = 0;
     for(int i = 0; i<3; i++) {
       result <<= 8;
-      result |= number[i];
+      result |= (0xff & number[i]);
     }
     return result;
   }
@@ -55,28 +55,17 @@ public class ModelReader {
   }
   
   private double asDouble(final byte[] bytes) {
-    long basis = asLong(bytes,0,6, 0,5);
-    long exponent = asLong(bytes, 7, 8, 3, 0);
-    return basis * Math.pow(2, exponent);
+    long bits = asLong(bytes);
+    return Double.longBitsToDouble(bits);
   }
   
-  private long asLong(final byte[] bytes, final int offset, final int end, final int startBits, final int endBits) {
-    assert offset >= 0;
-    assert end <= 8;
-    assert endBits < 8;
-    assert startBits < 8;
+  private long asLong(final byte[] bytes) {
+    assert bytes.length == 8;
     
     long result = 0;
-    if(offset != 0) {
-      result = (byte) (bytes[offset - 1] << 8 - startBits) >> 8 - startBits;
-    }
-    for(int i = offset; i<end; i++) {
+    for(int i = 0; i<8; i++) {
       result <<= 8;
-      result |= bytes[i];
-    }
-    if(endBits != 0) {
-      result <<= endBits;
-      result |= bytes[end] >>> 8 - endBits;
+      result |= (0xff & bytes[i]);
     }
     return result;
   }
