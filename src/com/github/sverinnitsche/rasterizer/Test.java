@@ -1,6 +1,7 @@
 package com.github.sverinnitsche.rasterizer;
 
 import com.github.sverinnitsche.rasterizer.io.ModelReader;
+import com.github.sverinnitsche.rasterizer.io.ModelWriter;
 import com.github.sverinnitsche.rasterizer.math.Matrix;
 import com.github.sverinnitsche.rasterizer.math.Vertex;
 import com.github.sverinnitsche.rasterizer.visual.Mesh;
@@ -13,6 +14,8 @@ public class Test {
   
   public static void main(String[] args) throws IOException {
     Mesh mesh = new ModelReader(new File("res/models/Cube.mdl")).mesh();
+    ModelWriter writer = new ModelWriter(mesh);
+    writer.write(new File("res/models/out.mdl"));
     Vertex origin = new Vertex(1,1,0);
     Vertex x = new Vertex(100,0,0);
     Vertex y = new Vertex(0,100,0);

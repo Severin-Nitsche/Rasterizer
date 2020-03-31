@@ -8,6 +8,8 @@ import java.util.Comparator;
 
 public class Mesh {
   private Tri[] tris;
+  private Vertex[] vertices;
+  private int[] indices;
   
   /**
    *
@@ -26,6 +28,8 @@ public class Mesh {
     for(int i=0; i<indices.length-1; i+=2) {
       tris[(i)/2] = new Tri(vertices[indices[i]], vertices[indices[i+1]], vertices[indices[i+2]]);
     }
+    this.vertices = vertices;
+    this.indices = indices;
   }
   
   public void index(Matrix cam) {
@@ -36,6 +40,30 @@ public class Mesh {
     for(Tri tri : tris) {
       tri.project(cam, r, outline, sun);
     }
+  }
+  
+  public int size() {
+    return tris.length;
+  }
+  
+  public int indices() {
+    return indices.length;
+  }
+  
+  public int vertices() {
+    return vertices.length;
+  }
+  
+  public Vertex getVertex(int i) {
+    return vertices[i];
+  }
+  
+  public int getIndex(int i) {
+    return indices[i];
+  }
+  
+  public Tri get(int i) {
+    return tris[i];
   }
   
   @Override
